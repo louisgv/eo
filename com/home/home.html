@@ -25,11 +25,15 @@
           <div class="item">
             <img ng-src="{{biz.image_url}}" alt="" />
           </div>
-          <div class="item">
-            <a href="tel:{{biz.display_phone}}">{{biz.display_phone}}</a>
-          </div>
+
           <div class="item">
             <img ng-src="{{biz.rating_img_url}}" alt="" />
+          </div>
+
+          <div class="item">
+            <a href="tel:{{biz.display_phone}}" class="waves-effect waves-light btn">
+              {{biz.display_phone}}
+            </a>
           </div>
         </div>
 
