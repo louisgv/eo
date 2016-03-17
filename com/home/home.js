@@ -40,13 +40,15 @@ function HomeCtrl($http, $ionicLoading) {
   home.getRandomIdea = function () {
     $http.get("http://localhost:1314/nr/47.303767/-122.21053")
       .success(function (data) {
+
         console.log(data);
 
         // home.idea.product = data.this;
         // home.idea.market = data.that;
 
-        home.idea.raw = data;
-      });
+        home.bizs = data.businesses;
+      }
+    );
   };
 
 
