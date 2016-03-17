@@ -38,7 +38,8 @@ function HomeCtrl($http, $ionicLoading) {
   home.graph = {};
 
   home.getRandomIdea = function () {
-    $http.get("http://localhost:1314/nr/47.303767/-122.21053")
+    // $http.get("http://localhost:1314/nr/47.303767/-122.21053")
+    $http.get("https://eo.mybluemix.net/nr/47.303767/-122.21053")
       .success(function (data) {
 
         console.log(data);
