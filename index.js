@@ -7,24 +7,30 @@
 
 angular.module('app', [
     'ionic',
-    'camera',
-    'chart.js'
+    'ngGeolocation',
+    'uiGmapgoogle-maps'
   ])
   .config(config)
   .run(run)
   .controller('HomeCtrl', HomeCtrl);
 
-function config($stateProvider, $urlRouterProvider) {
+function config($stateProvider, $urlRouterProvider, uiGmapGoogleMapApiProvider) {
+
+  uiGmapGoogleMapApiProvider.configure({
+    //    key: 'your api key',
+    // v: '3.20', //defaults to latest 3.X anyhow
+    libraries: 'weather,geometry,visualization'
+  });
 
   // if none of the above states are matched, use this as the fallback
   console.log('config');
   $urlRouterProvider.otherwise('/');
 
   $stateProvider.state('home', {
-      url: '/',
-      templateUrl: 'com/home/home.html',
-      controller: 'HomeCtrl as home'
-    });
+    url: '/',
+    templateUrl: 'com/home/home.html',
+    controller: 'HomeCtrl as home'
+  });
   // .state('app.deal', {
   //   url: '/deallists/:dealId',
   //   views: {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <ion-view class="home">
   <ion-nav-title class="logo">
-    BIZ
+    Sunshine
   </ion-nav-title>
 
   <ion-content class="has-header app-bg" overflow-scroll="true">
@@ -18,24 +18,38 @@
       </div> -->
 
       <div class="col col-33 responsive-sm">
-        <div class="card" ng-repeat="biz in home.bizs">
-          <div class="item item-positive">
-            {{biz.name}}
-          </div>
-          <div class="item">
-            <img ng-src="{{biz.image_url}}" alt="" />
-          </div>
+        <ui-gmap-google-map center='home.map.center' zoom='home.map.zoom'>
+        </ui-gmap-google-map>
 
-          <div class="item">
-            <img ng-src="{{biz.rating_img_url}}" alt="" />
-          </div>
+      </div>
 
-          <div class="item">
-            <a href="tel:{{biz.display_phone}}" class="waves-effect waves-light btn">
-              {{biz.display_phone}}
-            </a>
-          </div>
-        </div>
+      <div class="col col-33 responsive-sm">
+        <ion-slide-box on-slide-changed="slideHasChanged(index)">
+          <ion-slide ng-repeat="biz in home.bizs">
+
+            <div class="card">
+
+              <div class="item item-positive">
+                {{biz.name}}
+              </div>
+              <div class="item">
+                <img ng-src="{{biz.image_url}}" alt="" />
+              </div>
+
+              <div class="item">
+                <img ng-src="{{biz.rating_img_url}}" alt="" />
+              </div>
+
+              <div class="item">
+                <a href="tel:{{biz.display_phone}}" class="waves-effect waves-light btn">
+                  {{biz.display_phone}}
+                </a>
+              </div>
+
+            </div>
+
+          </ion-slide>
+        </ion-slide-box>
 
         <!-- <span ng-include="'com/home/graphs/concepts.html'"></span>
         <span ng-include="'com/home/mods/concepts.html'"></span> -->

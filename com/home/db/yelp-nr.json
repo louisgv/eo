@@ -1,0 +1,1093 @@
+{
+  "region": {
+    "span": {
+      "latitude_delta": 0.007288514170738836,
+      "longitude_delta": 0.007356360000017048
+    },
+    "center": {
+      "latitude": 47.6614462609867,
+      "longitude": -122.3111672
+    }
+  },
+  "total": 40,
+  "businesses": [
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/ej-burger-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 172,
+      "name": "EJ Burger",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/qVb0SqpKZiwB3lWUO7opaw/ms.jpg",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/ej-burger-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Burgers",
+          "burgers"
+        ],
+        [
+          "American (Traditional)",
+          "tradamerican"
+        ],
+        [
+          "Seafood",
+          "seafood"
+        ]
+      ],
+      "phone": "2065473300",
+      "snippet_text": "This is probably my favorite burger place on The Ave. I lived in Texas for four years, so every once in a while, I have to give into my burger cravings....",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/dTDch7LoF8Ttc9QdSBIlRg/ms.jpg",
+      "location": {
+        "cross_streets": "45th St & 47th St",
+        "city": "Seattle",
+        "display_address": [
+          "4510 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 9.5,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4510 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.6616432,
+          "longitude": -122.3130944
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-547-3300",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "ej-burger-seattle",
+      "is_closed": false,
+      "distance": 395.94464156929547,
+      "$$hashKey": "object:17"
+    },
+    {
+      "is_claimed": true,
+      "rating": 5,
+      "mobile_url": "http://m.yelp.com/biz/beetle-cafe-seattle-4?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+      "review_count": 39,
+      "name": "Beetle Cafe",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/qs2zZxRSddzkPXKTc1D9CQ/ms.jpg",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+      "url": "http://www.yelp.com/biz/beetle-cafe-seattle-4?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Coffee & Tea",
+          "coffee"
+        ],
+        [
+          "Shaved Ice",
+          "shavedice"
+        ],
+        [
+          "Indonesian",
+          "indonesian"
+        ]
+      ],
+      "phone": "6464284729",
+      "snippet_text": "I found out about this place from a friend's recommendation, and it was everything I was looking for in a coffee shop - solid wifi, great food, reasonable...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/49A388NHwh--4PNtt2azcg/ms.jpg",
+      "location": {
+        "city": "Seattle",
+        "display_address": [
+          "4334 Univeristy Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4334 Univeristy Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.6608,
+          "longitude": -122.31283
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-646-428-4729",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+      "id": "beetle-cafe-seattle-4",
+      "is_closed": false,
+      "distance": 402.2193506453663,
+      "$$hashKey": "object:18"
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/u-don-fresh-japanese-noodle-station-seattle-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 413,
+      "name": "U:Don Fresh Japanese Noodle Station",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/OPxLULJLzvGkhmmHsjm4Mw/ms.jpg",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/u-don-fresh-japanese-noodle-station-seattle-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Japanese",
+          "japanese"
+        ],
+        [
+          "Soup",
+          "soup"
+        ]
+      ],
+      "phone": "2064533788",
+      "snippet_text": "This is going to be a sweet and short review. I love this place! I went to the 12th Avenue Capitol Hill location first and happened to be around U District...",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/dY_LF-2ftuBqJWB75L-thA/ms.jpg",
+      "location": {
+        "cross_streets": "45th St & 47th St",
+        "city": "Seattle",
+        "display_address": [
+          "4515 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 9.5,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4515 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.6617467,
+          "longitude": -122.3132848
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-453-3788",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "u-don-fresh-japanese-noodle-station-seattle-3",
+      "is_closed": false,
+      "distance": 409.45930734083396,
+      "$$hashKey": "object:19"
+    },
+    {
+      "is_claimed": true,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/thai-tom-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 1549,
+      "name": "Thai Tom",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/hLz4crEZoe7LEkHS1srjww/ms.jpg",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/thai-tom-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Thai",
+          "thai"
+        ]
+      ],
+      "menu_date_updated": 1441961168,
+      "phone": "2065489548",
+      "snippet_text": "Hole in the wall kinda dirty college establishment, but that's to be expected and kind of part of the experience in what you pay for. The food is off the...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/BgHjDWUsjWHcp_yo8Jynaw/ms.jpg",
+      "location": {
+        "cross_streets": "45th St & 47th St",
+        "city": "Seattle",
+        "display_address": [
+          "4543 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 9.5,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4543 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.662455,
+          "longitude": -122.3132706
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-548-9548",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "menu_provider": "single_platform",
+      "id": "thai-tom-seattle",
+      "is_closed": false,
+      "distance": 412.25632641995514,
+      "$$hashKey": "object:20"
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/which-wich-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 130,
+      "name": "Which Wich",
+      "snippet_image_url": "https://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cc4afe21892e/assets/img/default_avatars/user_medium_square.png",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/which-wich-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Sandwiches",
+          "sandwiches"
+        ]
+      ],
+      "phone": "2065880471",
+      "snippet_text": "LOVE this place. The ordering system is so fun and convenient, delicious sandwiches, and the staff is extremely friendly.",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/0lV1wvxTQgDiH6yejYr_3Q/ms.jpg",
+      "location": {
+        "cross_streets": "47th St & 50th St",
+        "city": "Seattle",
+        "display_address": [
+          "4730 University Way NE",
+          "Ste 102",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4730 University Way NE",
+          "Ste 102"
+        ],
+        "coordinate": {
+          "latitude": 47.66386,
+          "longitude": -122.312767
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-588-0471",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "which-wich-seattle",
+      "is_closed": false,
+      "distance": 429.07677425782055,
+      "$$hashKey": "object:21"
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/zen-noodle-and-cafe-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 76,
+      "name": "Zen Noodle & Cafe",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/h2CI8LVp4gqCliwp8Z_1xg/ms.jpg",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/zen-noodle-and-cafe-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Chinese",
+          "chinese"
+        ],
+        [
+          "Taiwanese",
+          "taiwanese"
+        ]
+      ],
+      "phone": "2066327792",
+      "snippet_text": "This is a small place that gets packed quickly! I suggest coming right before the lunch rush if possible because I've walked all the way up the Ave just to...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YUf8ZwZL2Zb1f_trGzHEIA/ms.jpg",
+      "location": {
+        "cross_streets": "45th St & 47th St",
+        "city": "Seattle",
+        "display_address": [
+          "4537A University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4537A University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.6623611,
+          "longitude": -122.3134308
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-632-7792",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "zen-noodle-and-cafe-seattle",
+      "is_closed": false,
+      "distance": 431.32564520890213,
+      "$$hashKey": "object:22"
+    },
+    {
+      "is_claimed": false,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/aladdin-falafel-corner-seattle-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 330,
+      "name": "Aladdin Falafel Corner",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/HehEoNYWI0WUWhQZOjZUKg/ms.jpg",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/aladdin-falafel-corner-seattle-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Middle Eastern",
+          "mideastern"
+        ],
+        [
+          "Falafel",
+          "falafel"
+        ]
+      ],
+      "menu_date_updated": 1457957851,
+      "phone": "2065489539",
+      "snippet_text": "honestly\n\nif you're like me and\nyou like getting \npunched in the face by flavor\n\nget yourself some god damn shawarma",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/6wzkkQRxJv-0KolW1DiXpA/ms.jpg",
+      "location": {
+        "cross_streets": "45th St & 47th St",
+        "city": "Seattle",
+        "display_address": [
+          "4541 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4541 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.6624399,
+          "longitude": -122.31344
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-548-9539",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "menu_provider": "single_platform",
+      "id": "aladdin-falafel-corner-seattle-2",
+      "is_closed": false,
+      "distance": 432.5084676328165,
+      "$$hashKey": "object:23"
+    },
+    {
+      "rating": 4.5,
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "display_phone": "+1-206-420-1484",
+      "id": "shawarma-king-seattle-5",
+      "is_closed": false,
+      "eat24_url": "http://e24.io/r/44897?utm_campaign=public&utm_medium=yelpapi&utm_source=yelpapi",
+      "mobile_url": "http://m.yelp.com/biz/shawarma-king-seattle-5?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "review_count": 46,
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/Ic7l5wwTunu9BM9X4QgxCw/ms.jpg",
+      "location": {
+        "cross_streets": "45th St & 43rd St",
+        "city": "Seattle",
+        "display_address": [
+          "4337 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 9.5,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4337 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.6609142,
+          "longitude": -122.313429
+        },
+        "state_code": "WA"
+      },
+      "is_claimed": true,
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "phone": "2064201484",
+      "snippet_text": "shoutout to my boy in the back, who is probably the shwarma king for giving us free fries. 4 stars for the service and 1 star for the good smelling...",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "categories": [
+        [
+          "Mediterranean",
+          "mediterranean"
+        ],
+        [
+          "Egyptian",
+          "egyptian"
+        ]
+      ],
+      "distance": 434.44790745986313,
+      "name": "Shawarma King",
+      "url": "http://www.yelp.com/biz/shawarma-king-seattle-5?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/6NNAquDy9P2Cu7qQl8FwHQ/ms.jpg",
+      "menu_provider": "eat24",
+      "menu_date_updated": 1455479524,
+      "$$hashKey": "object:24"
+    },
+    {
+      "is_claimed": true,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/somtam-thai-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 132,
+      "name": "Somtam Thai",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/Zek0HA8cv3QyQ1hca0B16A/ms.jpg",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/somtam-thai-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Thai",
+          "thai"
+        ]
+      ],
+      "phone": "2065246339",
+      "snippet_text": "Consistent quality food, quick and polite service and very low prices! What's not to like at Somtam Thai. This is my number 1 go to Thai place in the...",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/pRxyuwZIBAhzD9k4drAyrg/ms.jpg",
+      "location": {
+        "cross_streets": "47th St & 50th St",
+        "city": "Seattle",
+        "display_address": [
+          "4736 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4736 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.6642113,
+          "longitude": -122.3127518
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-524-6339",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "id": "somtam-thai-seattle",
+      "is_closed": false,
+      "distance": 447.78990277939926,
+      "$$hashKey": "object:25"
+    },
+    {
+      "rating": 4.5,
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "display_phone": "+1-206-547-1111",
+      "id": "i-see-food-seattle",
+      "is_closed": false,
+      "eat24_url": "http://e24.io/r/63002?utm_campaign=public&utm_medium=yelpapi&utm_source=yelpapi",
+      "mobile_url": "http://m.yelp.com/biz/i-see-food-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "review_count": 112,
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/YbKrkFpOc02bfWZ-awSatw/ms.jpg",
+      "location": {
+        "cross_streets": "45th St & 43rd St",
+        "city": "Seattle",
+        "display_address": [
+          "4311 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4311 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.66015,
+          "longitude": -122.3134
+        },
+        "state_code": "WA"
+      },
+      "is_claimed": true,
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "phone": "2065471111",
+      "snippet_text": "Everyone knows when you're craving crawfish nothing else will do, and if you're as addicted as I am to those little fresh water lobsters I See Food is the...",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "categories": [
+        [
+          "Cajun/Creole",
+          "cajun"
+        ],
+        [
+          "Seafood",
+          "seafood"
+        ]
+      ],
+      "distance": 462.9288107854392,
+      "name": "I See Food",
+      "url": "http://www.yelp.com/biz/i-see-food-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5k3N8mEVFyCpvR21qxZGdA/ms.jpg",
+      "menu_provider": "single_platform",
+      "menu_date_updated": 1457022624,
+      "$$hashKey": "object:26"
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/cafe-o-dessert-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 58,
+      "name": "Cafe O'Dessert",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/NWHLO8udAMEM5L7x_a5rog/ms.jpg",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/cafe-o-dessert-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Chinese",
+          "chinese"
+        ],
+        [
+          "Coffee & Tea",
+          "coffee"
+        ],
+        [
+          "Shaved Ice",
+          "shavedice"
+        ]
+      ],
+      "phone": "2065225266",
+      "snippet_text": "I've wanted to try this place for their Taiwanese shaved ice for a long time. I love the fact that this place is open late. My girlfriend was hungry when we...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/kn24ltoO-BELxxtpESqnIA/ms.jpg",
+      "location": {
+        "cross_streets": "47th St & 50th St",
+        "city": "Seattle",
+        "display_address": [
+          "4727 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4727 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.66389,
+          "longitude": -122.31339
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-522-5266",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "cafe-o-dessert-seattle",
+      "is_closed": false,
+      "distance": 470.3284718523602,
+      "$$hashKey": "object:27"
+    },
+    {
+      "is_claimed": true,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/banh-mi-unwrapped-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 145,
+      "name": "Banh Mi Unwrapped",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/XkL0qFYAYuYEhcWTj7pc_Q/ms.jpg",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/banh-mi-unwrapped-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Vietnamese",
+          "vietnamese"
+        ],
+        [
+          "Sandwiches",
+          "sandwiches"
+        ]
+      ],
+      "phone": "2064567192",
+      "snippet_text": "Best Banh Mi's on the Ave. Love that they have fresh baked bread (the bread is long baguette and easy to chew). They give you a good balanced amount of meat...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/jjuciE_RhNj7ysga2ehPhQ/ms.jpg",
+      "location": {
+        "cross_streets": "47th St & 50th St",
+        "city": "Seattle",
+        "display_address": [
+          "4725 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4725 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.6638603,
+          "longitude": -122.3133926
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-456-7192",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "banh-mi-unwrapped-seattle",
+      "is_closed": false,
+      "distance": 471.0945110496773,
+      "$$hashKey": "object:28"
+    },
+    {
+      "is_claimed": true,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/arepa-venezuelan-kitchen-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 55,
+      "name": "Arepa Venezuelan Kitchen",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/1mP_T8aYTT_oekABWwuzzQ/ms.jpg",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/arepa-venezuelan-kitchen-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Venezuelan",
+          "venezuelan"
+        ]
+      ],
+      "phone": "2065564879",
+      "snippet_text": "this place is legit I'm from venezuela and live in spokane wa I drove almost 5 hours each way to eat a piece of home cooking and I loved it \n\nThe beef...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/L1EDZNgXzniK8UQZePRtqA/ms.jpg",
+      "location": {
+        "cross_streets": "N University Way & N 15th Ave",
+        "city": "Seattle",
+        "display_address": [
+          "1405 NE 50th St",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 9.5,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "1405 NE 50th St"
+        ],
+        "coordinate": {
+          "latitude": 47.6647592219734,
+          "longitude": -122.312693352331
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-556-4879",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "arepa-venezuelan-kitchen-seattle",
+      "is_closed": false,
+      "distance": 482.3748013933746,
+      "$$hashKey": "object:29"
+    },
+    {
+      "is_claimed": true,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/noodle-nation-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 221,
+      "name": "Noodle Nation",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/RyclW18pXWk2P6dr6r-jEw/ms.jpg",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/noodle-nation-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Thai",
+          "thai"
+        ]
+      ],
+      "phone": "2066325833",
+      "snippet_text": "I've eaten here many times with friends and old coworkers from the UW and it hasn't disappointed me yet. Good, solid, tasty, and affordable Thai food....",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/kpWPElSo6Sghej3rv375Xw/ms.jpg",
+      "location": {
+        "cross_streets": "42nd St & 43rd St",
+        "city": "Seattle",
+        "display_address": [
+          "4232 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4232 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.65928,
+          "longitude": -122.31285
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-632-5833",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "id": "noodle-nation-seattle",
+      "is_closed": false,
+      "distance": 484.51015168225933,
+      "$$hashKey": "object:30"
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/mr-lus-burgers-and-seafood-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 148,
+      "name": "Mr Lu's Burgers & Seafood",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/35LGjsbQc2n-awabkCnKMA/ms.jpg",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/mr-lus-burgers-and-seafood-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Seafood",
+          "seafood"
+        ],
+        [
+          "Burgers",
+          "burgers"
+        ]
+      ],
+      "menu_date_updated": 1441995434,
+      "phone": "2065250365",
+      "snippet_text": "One of my favorite burger places on the Ave, dare I say even, Seattle!\n\nThe patties are huge, fresh, juicy, and cooked to perfection. Their buns are...",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/sFDiKOL6e4g8a280bLOZHw/ms.jpg",
+      "location": {
+        "cross_streets": "47th St & 50th St",
+        "city": "Seattle",
+        "display_address": [
+          "4752 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4752 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.66465,
+          "longitude": -122.312752
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-525-0365",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "menu_provider": "single_platform",
+      "id": "mr-lus-burgers-and-seafood-seattle",
+      "is_closed": false,
+      "distance": 488.28263112823294,
+      "$$hashKey": "object:31"
+    },
+    {
+      "rating": 4,
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "display_phone": "+1-206-633-7867",
+      "id": "thanh-vi-seattle-2",
+      "is_closed": false,
+      "eat24_url": "http://e24.io/r/51301?utm_campaign=public&utm_medium=yelpapi&utm_source=yelpapi",
+      "mobile_url": "http://m.yelp.com/biz/thanh-vi-seattle-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "review_count": 334,
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/rDOG-bvbjHPvXjudrnURYg/ms.jpg",
+      "location": {
+        "cross_streets": "42nd St & 43rd St",
+        "city": "Seattle",
+        "display_address": [
+          "4226 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4226 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.65919,
+          "longitude": -122.31296
+        },
+        "state_code": "WA"
+      },
+      "is_claimed": false,
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "phone": "2066337867",
+      "snippet_text": "Environment:\n\nHole in the wall kind of place. It's got a slightly \"tight\" kind of atmosphere. The restaurant is relatively clean and feels pretty \"snug.\"...",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "categories": [
+        [
+          "Vietnamese",
+          "vietnamese"
+        ],
+        [
+          "Sandwiches",
+          "sandwiches"
+        ]
+      ],
+      "distance": 490.4368821154947,
+      "name": "Thanh Vi",
+      "url": "http://www.yelp.com/biz/thanh-vi-seattle-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/oLvhS7Z27j3sWlzEKfPUOw/ms.jpg",
+      "menu_provider": "eat24",
+      "menu_date_updated": 1455105431,
+      "$$hashKey": "object:32"
+    },
+    {
+      "is_claimed": false,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/cedars-of-lebanon-seattle-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 142,
+      "name": "Cedars of Lebanon",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/X446IDBQFM2eH1n5bQhpaQ/ms.jpg",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/cedars-of-lebanon-seattle-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Middle Eastern",
+          "mideastern"
+        ],
+        [
+          "Mediterranean",
+          "mediterranean"
+        ]
+      ],
+      "phone": "2066327708",
+      "snippet_text": "I absolutely love this place. I've come here a couple of times, and I definitely recommend the gyro special. A great gyro with a drink and fries, for 7...",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/YwY1_IipJEgCC0N1ffn7aw/ms.jpg",
+      "location": {
+        "cross_streets": "N University Way & N Brooklyn Ave",
+        "city": "Seattle",
+        "display_address": [
+          "1319 NE 43rd St",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "1319 NE 43rd St"
+        ],
+        "coordinate": {
+          "latitude": 47.6597488671541,
+          "longitude": -122.313968092203
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-632-7708",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "cedars-of-lebanon-seattle-2",
+      "is_closed": false,
+      "distance": 497.9324077572694,
+      "$$hashKey": "object:33"
+    },
+    {
+      "is_claimed": true,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/ugly-mug-caf%C3%A9-and-coffee-roasters-seattle-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 279,
+      "name": "Ugly Mug Café & Coffee Roasters",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/kd-xfHeQhgLuLzVrbQPpFA/ms.jpg",
+      "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/ugly-mug-caf%C3%A9-and-coffee-roasters-seattle-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Breakfast & Brunch",
+          "breakfast_brunch"
+        ],
+        [
+          "Coffee & Tea",
+          "coffee"
+        ],
+        [
+          "Sandwiches",
+          "sandwiches"
+        ]
+      ],
+      "phone": "2065473219",
+      "snippet_text": "I honestly love this tiny hole in the wall vibing place. Its so unique and homey with good drinks and good food. The staff is always friendly and the...",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/uLhvJ-yCMFSjH7XHLqlU5g/ms.jpg",
+      "location": {
+        "cross_streets": "N University Way & N Brooklyn Ave",
+        "city": "Seattle",
+        "display_address": [
+          "1309 NE 43rd St",
+          "Ste 101",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 9.5,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "1309 NE 43rd St",
+          "Ste 101"
+        ],
+        "coordinate": {
+          "latitude": 47.6597958,
+          "longitude": -122.3139519
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-547-3219",
+      "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "ugly-mug-café-and-coffee-roasters-seattle-2",
+      "is_closed": false,
+      "distance": 516.1806829940579,
+      "$$hashKey": "object:34"
+    },
+    {
+      "is_claimed": false,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/itadakimasu-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 254,
+      "name": "Itadakimasu",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/nboGQb11tCvG3xUSYdha-w/ms.jpg",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/itadakimasu-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Korean",
+          "korean"
+        ],
+        [
+          "Japanese",
+          "japanese"
+        ],
+        [
+          "Hawaiian",
+          "hawaiian"
+        ]
+      ],
+      "phone": "2066590722",
+      "snippet_text": "If you are looking for a place that give you quality and quantity this might be your place. I came after playing hours of basketball and felt like I could...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/wrZ8GY6_6x9BndXFB-Y09g/ms.jpg",
+      "location": {
+        "cross_streets": "47th St & 50th St",
+        "city": "Seattle",
+        "display_address": [
+          "4743 Brooklyn Ave NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4743 Brooklyn Ave NE"
+        ],
+        "coordinate": {
+          "latitude": 47.664349,
+          "longitude": -122.314514
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-659-0722",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "itadakimasu-seattle",
+      "is_closed": false,
+      "distance": 568.9118964716251,
+      "$$hashKey": "object:35"
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/burger-and-kabob-hut-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 152,
+      "name": "Burger and Kabob Hut",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/fgrBB0f8UDXirOU9sQr4uQ/ms.jpg",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/burger-and-kabob-hut-seattle?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Burgers",
+          "burgers"
+        ],
+        [
+          "Halal",
+          "halal"
+        ]
+      ],
+      "phone": "2066320324",
+      "snippet_text": "I little bit of heaven on earth\n\nThey have the best chicken pita i have ever ever had.\n\nAsk for chicken pita like shawarma and it will change your life and...",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/79Ik9CVfFW_lHPOatMeyuA/ms.jpg",
+      "location": {
+        "cross_streets": "42nd St & 41st St",
+        "city": "Seattle",
+        "display_address": [
+          "4142 University Way NE",
+          "University District",
+          "Seattle, WA 98105"
+        ],
+        "geo_accuracy": 8,
+        "neighborhoods": [
+          "University District"
+        ],
+        "postal_code": "98105",
+        "country_code": "US",
+        "address": [
+          "4142 University Way NE"
+        ],
+        "coordinate": {
+          "latitude": 47.65815,
+          "longitude": -122.31301
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-206-632-0324",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "burger-and-kabob-hut-seattle",
+      "is_closed": false,
+      "distance": 571.1267949261274,
+      "$$hashKey": "object:36"
+    }
+  ]
+}

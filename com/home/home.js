@@ -1,12 +1,13 @@
-"use strict()";
+"use strict";
 
 var conceptsAPI = "./com/home/db/concepts.json";
 var keywordsAPI = "./com/home/db/keywords.json";
 var personalityAPI = "./com/home/db/personality.json";
 var toneAPI = "./com/home/db/tone.json";
-var analyzerAPI = "./com/home/db/analyzed.json"
+var analyzerAPI = "./com/home/db/analyzed.json";
+var yelpAPI = "./com/home/db/yelp-nr.json";
 
-function HomeCtrl($http, $ionicLoading) {
+function HomeCtrl($http, $ionicLoading, $geolocation, $ionicSlideBoxDelegate) {
   console.log("HomeCtrl");
 
   var home = this;
@@ -25,21 +26,42 @@ function HomeCtrl($http, $ionicLoading) {
     "item-calm"
   ]
 
-  home.idea = {
-    raw: "", // Raw idea expression
-    pitch: "", // The pitch
-    keyData: null, // All keywords extractable
-    related: null, // All related concepts, expecting about 30 mores of them
-    tone: null,
-    personality: null,
-    conceptCollection: null
+  home.map = {
+    center: {
+      latitude: 45,
+      longitude: -127
+    },
+    zoom: 18
   };
 
-  home.graph = {};
+  function updateMap(lat, long, zoom) {
+    home.map = {
+      center: {
+        latitude: lat,
+        longitude: long
+      },
+      zoom: zoom || 18
+    };
+  }
 
-  home.getRandomIdea = function () {
-    // $http.get("http://localhost:1314/nr/47.303767/-122.21053")
-    $http.get("https://eo.mybluemix.net/nr/47.303767/-122.21053")
+  $geolocation.getCurrentPosition({
+      timeout: 60000
+    })
+    .then(function (position) {
+      console.log();
+
+      let coords = position.coords;
+
+      getNearbyRestaurant(coords.latitude, coords.longitude);
+
+      updateMap(coords.latitude, coords.longitude);
+
+    });
+
+  var getNearbyRestaurant = function (lat, lng) {
+    $http.get(yelpAPI)
+      // $http.get(`http://localhost:1314/nr/${lat}/${lng}`)
+      // $http.get(`https://eo.mybluemix.net/nr/${lat}/${lng}`)
       .success(function (data) {
 
         console.log(data);
@@ -48,12 +70,9 @@ function HomeCtrl($http, $ionicLoading) {
         // home.idea.market = data.that;
 
         home.bizs = data.businesses;
-      }
-    );
+        $ionicSlideBoxDelegate.update();
+      });
   };
-
-
-  home.getRandomIdea();
 
   //* //////////////////////////////////////////////
 

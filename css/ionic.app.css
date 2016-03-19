@@ -9094,6 +9094,9 @@ a.button {
   color: white;
   background: white; }
 
+.home .angular-google-map-container {
+  height: 45vh; }
+
 .home .item-group {
   display: flex;
   flex-flow: row wrap;
@@ -9105,12 +9108,10 @@ textarea {
   margin-top: 13.14px; }
 
 .app-bg {
-  color: white;
-  background: #134E5E;
+  color: #5B5C59;
+  background: #f8e71c;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #134E5E, #71B280);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #134E5E, #71B280);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-position: center;
   background-size: cover;
