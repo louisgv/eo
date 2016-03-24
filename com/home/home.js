@@ -7,7 +7,7 @@ var toneAPI = "./com/home/db/tone.json";
 var analyzerAPI = "./com/home/db/analyzed.json";
 var yelpAPI = "./com/home/db/yelp-nr.json";
 
-function HomeCtrl($http, $ionicLoading, $geolocation, $ionicSlideBoxDelegate) {
+function HomeCtrl($http, $ionicLoading, geolocation, $ionicSlideBoxDelegate) {
   console.log("HomeCtrl");
 
   var home = this;
@@ -44,19 +44,15 @@ function HomeCtrl($http, $ionicLoading, $geolocation, $ionicSlideBoxDelegate) {
     };
   }
 
-  $geolocation.getCurrentPosition({
-      timeout: 60000
-    })
-    .then(function (position) {
-      console.log();
-
-      let coords = position.coords;
+  geolocation.getLocation()
+    .then(function (data) {
+      let coords = data.coords;
 
       getNearbyRestaurant(coords.latitude, coords.longitude);
 
       updateMap(coords.latitude, coords.longitude);
-
     });
+
 
   var getNearbyRestaurant = function (lat, lng) {
     $http.get(yelpAPI)

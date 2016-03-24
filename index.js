@@ -7,12 +7,13 @@
 
 angular.module('app', [
     'ionic',
-    'ngGeolocation',
+    'geolocation',
     'uiGmapgoogle-maps'
   ])
   .config(config)
   .run(run)
-  .controller('HomeCtrl', HomeCtrl);
+  .controller('HomeCtrl', HomeCtrl)
+  .controller('InfoCtrl', InfoCtrl)
 
 function config($stateProvider, $urlRouterProvider, uiGmapGoogleMapApiProvider) {
 
@@ -24,13 +25,20 @@ function config($stateProvider, $urlRouterProvider, uiGmapGoogleMapApiProvider) 
 
   // if none of the above states are matched, use this as the fallback
   console.log('config');
+
   $urlRouterProvider.otherwise('/');
 
-  $stateProvider.state('home', {
-    url: '/',
-    templateUrl: 'com/home/home.html',
-    controller: 'HomeCtrl as home'
-  });
+  $stateProvider
+    .state('home', {
+      url: '/',
+      templateUrl: 'com/home/home.html',
+      controller: 'HomeCtrl as home'
+    })
+    .state('home.info', {
+      url: '/info/:index',
+      templateUrl: 'com/info/info.html',
+      controller: 'InfoCtrl as info'
+    })
   // .state('app.deal', {
   //   url: '/deallists/:dealId',
   //   views: {
