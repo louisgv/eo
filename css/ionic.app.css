@@ -9093,6 +9093,9 @@ a.button {
 .home input[type=range] {
   margin: 0 auto; }
 
+.home ng-map {
+  height: 180px; }
+
 .home .slider {
   height: 100%; }
 

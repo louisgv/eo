@@ -26,12 +26,14 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
     "Specialized"
   ]
 
+  home.distance = 6000;
+
   home.classLabel = [
     "item-positive",
-    "item-assertive",
-    "item-energized",
     "item-balanced",
-    "item-calm"
+    "item-calm",
+    "item-energized",
+    "item-assertive"
   ]
 
   home.iframeTrust = function (url) {
@@ -66,7 +68,9 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
     };
   }
 
-  geolocation.getLocation()
+  home.refreshData = function () {
+    console.log(`Called`);
+    geolocation.getLocation()
     .then(function (data) {
       let coords = data.coords;
 
@@ -74,26 +78,27 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
 
       updateMap(coords.latitude, coords.longitude);
     });
+  }
 
 
-  var getNearbyRestaurant = function (lat, lng) {
+  let getNearbyRestaurant = function (lat, lng) {
+    let r = Math.floor(home.distance*0.3048);
+
     $http.get(yelpAPI)
-      // $http.get(`http://localhost:1314/nb/${lat}/${lng}/1800`)
-      // $http.get(`https://eo.mybluemix.net/nb/${lat}/${lng}/1800`)
+      // $http.get(`http://localhost:1314/nb/${lat}/${lng}/${r}`)
+      // $http.get(`https://eo.mybluemix.net/nb/${lat}/${lng}/${r}`)
       .success(function (data) {
 
         console.log(data);
 
-        // home.idea.product = data.this;
-        // home.idea.market = data.that;
-
         home.bizs = data.businesses;
         $ionicSlideBoxDelegate.update();
       });
-  };
+  }
 
   //* //////////////////////////////////////////////
 
+  home.refreshData();
   // home.getRelatedConcepts();
   // home.getTone();
   // home.getPersonality();
