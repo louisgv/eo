@@ -1,16 +1,22 @@
 "use strict";
 
-var conceptsAPI = "./com/home/db/concepts.json";
-var keywordsAPI = "./com/home/db/keywords.json";
-var personalityAPI = "./com/home/db/personality.json";
-var toneAPI = "./com/home/db/tone.json";
-var analyzerAPI = "./com/home/db/analyzed.json";
-var yelpAPI = "./com/home/db/yelp-nr.json";
+var conceptsAPI = "./db/concepts.json";
+var keywordsAPI = "./db/keywords.json";
+var personalityAPI = "./db/personality.json";
+var toneAPI = "./db/tone.json";
+var analyzerAPI = "./db/analyzed.json";
+var yelpAPI = "./db/yelp-nr.json";
 
-function HomeCtrl($http, $ionicLoading, geolocation, $ionicSlideBoxDelegate) {
+function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelegate, $state, DataStore, $sce) {
   console.log("HomeCtrl");
 
   var home = this;
+
+  NgMap.getMap().then(function(map) {
+    console.log(map.getCenter());
+    console.log('markers', map.markers);
+    console.log('shapes', map.shapes);
+  });
 
   home.levelLabel = [
     "Broad",
@@ -26,10 +32,14 @@ function HomeCtrl($http, $ionicLoading, geolocation, $ionicSlideBoxDelegate) {
     "item-calm"
   ]
 
+  home.iframeTrust = function (url) {
+    return $sce.trustAsResourceUrl(url);
+  }
+
   home.map = {
     center: {
       latitude: 45,
-      longitude: -127
+      longitude: -16
     },
     zoom: 18
   };
@@ -56,8 +66,8 @@ function HomeCtrl($http, $ionicLoading, geolocation, $ionicSlideBoxDelegate) {
 
   var getNearbyRestaurant = function (lat, lng) {
     $http.get(yelpAPI)
-      // $http.get(`http://localhost:1314/nr/${lat}/${lng}`)
-      // $http.get(`https://eo.mybluemix.net/nr/${lat}/${lng}`)
+      // $http.get(`http://localhost:1314/nb/${lat}/${lng}/1800`)
+      // $http.get(`https://eo.mybluemix.net/nb/${lat}/${lng}/1800`)
       .success(function (data) {
 
         console.log(data);

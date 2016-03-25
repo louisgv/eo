@@ -8,20 +8,15 @@
 angular.module('app', [
     'ionic',
     'geolocation',
-    'uiGmapgoogle-maps'
+    'ngMap'
   ])
   .config(config)
   .run(run)
   .controller('HomeCtrl', HomeCtrl)
   .controller('InfoCtrl', InfoCtrl)
+  .factory('DataStore', DataStore)
 
-function config($stateProvider, $urlRouterProvider, uiGmapGoogleMapApiProvider) {
-
-  uiGmapGoogleMapApiProvider.configure({
-    //    key: 'your api key',
-    // v: '3.20', //defaults to latest 3.X anyhow
-    libraries: 'weather,geometry,visualization'
-  });
+function config($stateProvider, $urlRouterProvider) {
 
   // if none of the above states are matched, use this as the fallback
   console.log('config');

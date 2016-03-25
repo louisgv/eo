@@ -6,63 +6,58 @@
 
   <ion-content class="has-header app-bg" overflow-scroll="true">
 
+    <ion-slide-box on-slide-changed="slideHasChanged(index)" show-pager="false">
+      <ion-slide ng-repeat="biz in home.bizs">
 
-    <div class="row responsive-sm">
+        <div class="card">
 
-      <!-- <div class="col col-25 responsive-sm" ng-show="home.idea.related">
-        <span ng-include="'com/home/mods/related-concepts.html'"></span>
-      </div> -->
+          <div class="item item-positive">
+          </div>
+          <div class="item item-thumbnail-left item-text-wrap">
+            <img ng-src="{{biz.image_url}}" alt="" />
+            <h2>
+              {{biz.name}}
+            </h2>
+            <p>
+            </p>
+          </div>
 
-      <!-- <div class="col col-25 responsive-sm" ng-show="home.idea.keyData">
-        <span ng-include="'com/home/mods/keywords.html'"></span>
-      </div> -->
+          <div class="item item-avatar item-text-wrap">
+            <img ng-src="{{biz.snippet_image_url}}" alt="" />
+            <p>
+              {{biz.snippet_text | limitTo: 90}}...
+            </p>
+          </div>
 
-      <div class="col col-33 responsive-sm">
-        <ui-gmap-google-map center='home.map.center' zoom='home.map.zoom'>
+          <div class="item">
+            {{biz.distance * 0.00062137121212121}}
+          </div>
 
-        </ui-gmap-google-map>
-      </div>
+          <div class="item text-center">
+            <img ng-src="{{biz.rating_img_url_large}}" alt="" />
+          </div>
 
-      <div class="col col-33 responsive-sm">
-        <ion-slide-box on-slide-changed="slideHasChanged(index)">
-          <ion-slide ng-repeat="biz in home.bizs">
+          <div class="item item-icon-left">
+            <i class="icon ion-ios-telephone-outline"></i>
+            <a ng-href="tel:{{biz.display_phone}}" class="waves-effect waves-light button button-balanced button-block">
+              {{biz.display_phone}}
+            </a>
+            <h6 class="text-center">(tap to call)</h6>
+          </div>
 
-            <div class="card">
+          <div class="item item-icon-left">
+            <i class="icon ion-ios-world-outline"></i>
+            <a ng-href="{{biz.mobile_url}}" class="waves-effect waves-light button button-assertive button-block">
+              Yelp Mobile
+            </a>
+          </div>
 
-              <div class="item item-positive">
-                {{biz.name}}
-              </div>
-              <div class="item">
-                <img ng-src="{{biz.image_url}}" alt="" />
-              </div>
+        </div>
 
-              <div class="item">
-                <img ng-src="{{biz.rating_img_url}}" alt="" />
-              </div>
+      </ion-slide>
+    </ion-slide-box>
 
-              <div class="item">
-                <a href="tel:{{biz.display_phone}}" class="waves-effect waves-light btn">
-                  {{biz.display_phone}}
-                </a>
-              </div>
 
-            </div>
-
-          </ion-slide>
-        </ion-slide-box>
-
-        <!-- <span ng-include="'com/home/graphs/concepts.html'"></span>
-        <span ng-include="'com/home/mods/concepts.html'"></span> -->
-      </div>
-
-      <div class="col col-33 responsive-sm" ng-show="home.idea.personality">
-
-      </div>
-
-      <div class="col col-33 responsive-sm" ng-show="home.idea.tone">
-
-      </div>
-    </div>
 
   </ion-content>
 </ion-view>
