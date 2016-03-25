@@ -84,9 +84,9 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
   let getNearbyRestaurant = function (lat, lng) {
     let r = Math.floor(home.distance*0.3048);
 
-    $http.get(yelpAPI)
+    // $http.get(yelpAPI)
       // $http.get(`http://localhost:1314/nb/${lat}/${lng}/${r}`)
-      // $http.get(`https://eo.mybluemix.net/nb/${lat}/${lng}/${r}`)
+      $http.get(`https://eo.mybluemix.net/nb/${lat}/${lng}/${r}`)
       .success(function (data) {
 
         console.log(data);

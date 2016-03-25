@@ -21,12 +21,14 @@
             </h2>
             <hr>
             <img ng-src="{{biz.rating_img_url}}" alt="" /> / {{biz.review_count}} reviews
-            <p ng-repeat="cat in biz.categories">
-              {{cat[0]}}
+            <p>
+              <span ng-repeat="cat in biz.categories">
+                {{cat[0]}}
+              </span>
             </p>
           </div>
 
-          <div class="item item-icon-left row">
+          <div class="item item-icon-left row text-center">
             <div class="col col-25">
               <i class="icon ion-android-walk"></i>
             </div>
@@ -36,36 +38,53 @@
               <br> miles
             </div>
             <div class="col col-25">
-              {{biz.distance/1.4/60 | number : 0 }}
-              <br> mins
-            </div>
-            <div class="col col-25">
               {{biz.distance/1.4/60/60*234 | number : 0 }}
               <br> cals
             </div>
+            <div class="col col-25">
+              {{biz.distance/1.4/60 | number : 0 }}
+              <br> mins
+            </div>
           </div>
 
-          <div class="item" ng-class="home.classLabel[($index+1)%home.classLabel.length]">
-          </div>
-
-          <div class="item item-icon-left row">
+          <div class="item item-icon-left text-center row">
             <div class="col col-25">
               <i class="icon ion-spoon"></i>
             </div>
-
             <div class="col col-25">
-              {{biz.distance * 0.00062137121212121| number : 2}}
-              <br> miles
+              1
+              <br>
+              spoon/oz
             </div>
             <div class="col col-25">
-              {{biz.distance/1.4/60 | number : 0 }}
-              <br> mins
-            </div>
-            <div class="col col-25">
-              {{biz.distance/1.4/60/60*234 | number : 0 }}
+              57
               <br> cals
             </div>
+            <div class="col col-25">
+              {{57/234*60 | number : 0 }}
+              <br> mins
+            </div>
           </div>
+
+          <div class="item text-center row" ng-class="home.classLabel[($index+1)%home.classLabel.length]">
+            <div class="col col-25">
+              <i class="icon ion-wifi"></i>
+              <br>Wifi
+            </div>
+            <div class="col col-25">
+              <i class="icon ion-code"></i>
+              <br>Coder
+            </div>
+            <div class="col col-25">
+              <i class="icon ion-music-note"></i>
+              <br>Vibes
+            </div>
+            <div class="col col-25">
+              <i class="icon ion-no-smoking"></i>
+              <br>No Smoke
+            </div>
+          </div>
+
 
           <div class="item item-avatar item-text-wrap">
             <img ng-src="{{biz.snippet_image_url}}" alt="" />
@@ -97,8 +116,8 @@
                       </a>
           </div>
 
-          <div class="item item-divider" ng-class="home.classLabel[($index+2)%home.classLabel.length]">
-          </div>
+          <!-- <div class="item" ng-class="home.classLabel[($index+2)%home.classLabel.length]">
+          </div> -->
 
           <div class="item item-icon-left">
             <i class="icon ion-ios-location-outline"></i>
