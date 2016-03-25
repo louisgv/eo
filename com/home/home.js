@@ -71,28 +71,34 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
   home.refreshData = function () {
     console.log(`Called`);
     geolocation.getLocation()
-    .then(function (data) {
-      let coords = data.coords;
+      .then(function (data) {
+        let coords = data.coords;
 
-      getNearbyRestaurant(coords.latitude, coords.longitude);
+        getNearbyRestaurant(coords.latitude, coords.longitude);
 
-      updateMap(coords.latitude, coords.longitude);
-    });
+        updateMap(coords.latitude, coords.longitude);
+      });
   }
 
 
   let getNearbyRestaurant = function (lat, lng) {
-    let r = Math.floor(home.distance*0.3048);
+    let r = Math.floor(home.distance * 0.3048);
+
+    $ionicLoading.show({
+      template: '<ion-spinner icon="ripple" class="spinner-energized"></ion-spinner><br>Fetching Yelp Data...',
+      animation: 'fade-in'
+    });
 
     // $http.get(yelpAPI)
-      // $http.get(`http://localhost:1314/nb/${lat}/${lng}/${r}`)
-      $http.get(`https://eo.mybluemix.net/nb/${lat}/${lng}/${r}`)
+    // $http.get(`http://localhost:1314/nb/${lat}/${lng}/${r}`)
+    $http.get(`https://eo.mybluemix.net/nb/${lat}/${lng}/${r}`)
       .success(function (data) {
 
         console.log(data);
 
         home.bizs = data.businesses;
         $ionicSlideBoxDelegate.update();
+        $ionicLoading.hide();
       });
   }
 
