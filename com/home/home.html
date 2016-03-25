@@ -53,14 +53,21 @@
           </div>
 
           <div class="item">
-            <ng-map center="{{home.locationString(biz.location.coordinate)}}" disable-default-u-i="true">
+
+            <a ng-href="https://maps.google.com/?saddr={{home.map.center}}&daddr={{home.locationString(biz.location.coordinate)}}&dirflg=w" class="waves-effect waves-light button button-balanced icon ion-ios-location" target="_blank">
+            </a>
+
+            <ng-map center="{{home.locationString(biz.location.coordinate)}}" disable-default-u-i="true" zoom="17">
+              <marker position="{{home.locationString(biz.location.coordinate)}}"
+              optimized="true"
+              icon="{
+                url:'assets/img/pin.png'
+              }" draggable="false"></marker>
+
               <!-- <directions draggable="true" travel-mode="WALKING" origin="{{origin}}" destination="{{destination}}">
               </directions> -->
             </ng-map>
 
-            <a ng-href="" class="waves-effect waves-light button button-balanced button-block">
-              Open for direction
-            </a>
           </div>
 
           <div class="item item-icon-left">
@@ -86,3 +93,35 @@
 
   </ion-content>
 </ion-view>
+
+<ion-footer-bar align-title="center" class="app-bg home">
+  <div class="row">
+
+    <!-- <div class="col col-80"> -->
+    <div class="col col-20">
+      Distance (ft)
+    </div>
+
+    <div class="col col-50">
+      <form action="#">
+        <p class="range-field">
+          <input type="range" step="10" min="45" max="4500" />
+        </p>
+      </form>
+    </div>
+
+    <button class="button button-outline button-assertive col col-10">
+      <i class="icon ion-refresh"></i>
+    </button>
+
+    <button class="button button-outline button-energized col col-10" ng-click="home.previousPlace()">
+      <i class="icon ion-chevron-left"></i>
+    </button>
+
+    <button class="button button-outline button-balanced col col-10" ng-click="home.nextPlace()">
+      <i class="icon ion-chevron-right"></i>
+    </button>
+
+  </div>
+
+</ion-footer-bar>

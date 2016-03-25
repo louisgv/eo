@@ -9090,6 +9090,9 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+.home input[type=range] {
+  margin: 0 auto; }
+
 .home .slider {
   height: 100%; }
 
@@ -9097,6 +9100,9 @@ a.button {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around; }
+
+.bar-footer {
+  height: 54px; }
 
 textarea {
   resize: vertical;

@@ -12,11 +12,12 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
 
   var home = this;
 
-  NgMap.getMap().then(function(map) {
-    console.log(map.getCenter());
-    console.log('markers', map.markers);
-    console.log('shapes', map.shapes);
-  });
+  NgMap.getMap()
+    .then(function (map) {
+      console.log(map.getCenter());
+      console.log('markers', map.markers);
+      console.log('shapes', map.shapes);
+    });
 
   home.levelLabel = [
     "Broad",
@@ -35,6 +36,14 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
 
   home.iframeTrust = function (url) {
     return $sce.trustAsResourceUrl(url);
+  }
+
+  home.previousPlace = function () {
+    $ionicSlideBoxDelegate.previous(999);
+  }
+
+  home.nextPlace = function () {
+    $ionicSlideBoxDelegate.next(999);
   }
 
   home.locationString = function (c) {
