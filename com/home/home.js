@@ -26,6 +26,7 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
   ]
 
   home.classLabel = [
+    "item-positive",
     "item-assertive",
     "item-energized",
     "item-balanced",
@@ -36,20 +37,22 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
     return $sce.trustAsResourceUrl(url);
   }
 
+  home.locationString = function (c) {
+    return `${c.latitude}, ${c.longitude}`;
+  }
+
   home.map = {
-    center: {
-      latitude: 45,
-      longitude: -16
-    },
+    center: {},
     zoom: 18
   };
 
   function updateMap(lat, long, zoom) {
     home.map = {
-      center: {
-        latitude: lat,
-        longitude: long
-      },
+      // center: {
+      //   latitude: lat,
+      //   longitude: long
+      // },
+      center: `${lat}, ${long}`,
       zoom: zoom || 18
     };
   }

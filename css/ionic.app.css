@@ -9091,7 +9091,7 @@ a.button {
   transition-duration: 0s; }
 
 .home .slider {
-  height: 81vh; }
+  height: 100%; }
 
 .home .item-group {
   display: flex;

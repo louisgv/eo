@@ -4,37 +4,63 @@
     Desert Time
   </ion-nav-title>
 
-  <ion-content class="has-header app-bg" overflow-scroll="true">
+  <ion-content class="has-header has-footer app-bg">
 
     <ion-slide-box on-slide-changed="slideHasChanged(index)" show-pager="false">
-      <ion-slide ng-repeat="biz in home.bizs">
+      <ion-slide ng-repeat="biz in home.bizs track by $index">
 
         <div class="card">
 
-          <div class="item item-positive">
+          <div class="item" ng-class="home.classLabel[$index%home.classLabel.length]">
           </div>
+
           <div class="item item-thumbnail-left item-text-wrap">
             <img ng-src="{{biz.image_url}}" alt="" />
             <h2>
               {{biz.name}}
             </h2>
-            <p>
+            <hr>
+            <img ng-src="{{biz.rating_img_url}}" alt="" /> / {{biz.review_count}} reviews
+            <p ng-repeat="cat in biz.categories">
+              {{cat[0]}}
             </p>
+          </div>
+
+          <div class="item item-icon-left row">
+            <div class="col col-25">
+              <i class="icon ion-android-walk"></i>
+            </div>
+
+            <div class="col col-25">
+              {{biz.distance * 0.00062137121212121| number : 2}}
+              <br> miles
+            </div>
+            <div class="col col-25">
+              {{biz.distance/1.4/60 | number : 0 }}
+              <br> mins
+            </div>
+            <div class="col col-25">
+              {{biz.distance/1.4/60/60*234 | number : 0 }}
+              <br> cals
+            </div>
           </div>
 
           <div class="item item-avatar item-text-wrap">
             <img ng-src="{{biz.snippet_image_url}}" alt="" />
             <p>
-              {{biz.snippet_text | limitTo: 90}}...
+              {{biz.snippet_text | limitTo: 99}}...
             </p>
           </div>
 
           <div class="item">
-            {{biz.distance * 0.00062137121212121}}
-          </div>
+            <ng-map center="{{home.locationString(biz.location.coordinate)}}" disable-default-u-i="true">
+              <!-- <directions draggable="true" travel-mode="WALKING" origin="{{origin}}" destination="{{destination}}">
+              </directions> -->
+            </ng-map>
 
-          <div class="item text-center">
-            <img ng-src="{{biz.rating_img_url_large}}" alt="" />
+            <a ng-href="" class="waves-effect waves-light button button-balanced button-block">
+              Open for direction
+            </a>
           </div>
 
           <div class="item item-icon-left">
@@ -56,7 +82,6 @@
 
       </ion-slide>
     </ion-slide-box>
-
 
 
   </ion-content>
