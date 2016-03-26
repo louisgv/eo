@@ -7,7 +7,7 @@ var toneAPI = "./db/tone.json";
 var analyzerAPI = "./db/analyzed.json";
 var yelpAPI = "./db/yelp-nr.json";
 
-function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelegate, $state, DataStore, $sce) {
+function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelegate, $state, DataStore, $sce, $ionicPlatform) {
   console.log("HomeCtrl");
 
   var home = this;
@@ -70,6 +70,10 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
 
   home.refreshData = function () {
     console.log(`Called`);
+    $ionicLoading.show({
+      template: '<ion-spinner icon="dots" class="spinner-assertive"></ion-spinner><br>Getting Your Location...',
+      animation: 'fade-in'
+    });
     geolocation.getLocation()
       .then(function (data) {
         let coords = data.coords;
@@ -77,6 +81,7 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
         getNearbyRestaurant(coords.latitude, coords.longitude);
 
         updateMap(coords.latitude, coords.longitude);
+
       });
   }
 
@@ -103,8 +108,9 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
   }
 
   //* //////////////////////////////////////////////
-
-  home.refreshData();
+  $ionicPlatform.ready(function () {
+    home.refreshData();
+  });
   // home.getRelatedConcepts();
   // home.getTone();
   // home.getPersonality();
