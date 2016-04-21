@@ -76,7 +76,7 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
     });
     geolocation.getLocation()
       .then(function (data) {
-        let coords = data.coords;
+        var coords = data.coords;
 
         getNearbyRestaurant(coords.latitude, coords.longitude);
 
@@ -86,8 +86,8 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
   }
 
 
-  let getNearbyRestaurant = function (lat, lng) {
-    let r = Math.floor(home.distance * 0.3048);
+  var getNearbyRestaurant = function (lat, lng) {
+    var r = Math.floor(home.distance * 0.3048);
 
     $ionicLoading.show({
       template: '<ion-spinner icon="ripple" class="spinner-energized"></ion-spinner><br>Fetching Yelp Data...',

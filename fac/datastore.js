@@ -3,7 +3,7 @@
 function DataStore() {
   console.log('DatabaseServ');
 
-  let data = {};
+  var data = {};
 
   return {
     get : function (key) {
